@@ -1,8 +1,8 @@
 <?php
 
-namespace jchck\admin_pages;
+namespace basswp\setup\pages;
 
-function admin_pages(){
+function admin(){
 
 	/*
 		Turn off the Admin Bar for user role >= admin
@@ -24,11 +24,11 @@ function admin_pages(){
 	
 }
 
-add_action( 'after_setup_theme', __NAMESPACE__ . '\\admin_pages' );
+add_action( 'after_setup_theme', __NAMESPACE__ . '\\admin' );
 
 
 
-function remove_pages(){
+function remove(){
 
 	/* 
 		Turn off Plugins if < admin
@@ -40,4 +40,4 @@ function remove_pages(){
 	}
 }
 
-add_action( 'admin_menu', __NAMESPACE__ . '\\remove_pages' );
+add_action( 'admin_menu', __NAMESPACE__ . '\\remove' );

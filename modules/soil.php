@@ -1,6 +1,6 @@
 <?php
 
-namespace jchck\soil;
+namespace basswp\setup\soil;
 
 /*
 	Enable Soil plugin modules

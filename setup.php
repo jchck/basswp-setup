@@ -10,7 +10,7 @@ License:            MIT
 License URI:        http://opensource.org/licenses/MIT
 */
 
-namespace jchck\setup;
+namespace basswp\setup;
 
 foreach ( glob( __DIR__ . '/modules/*.php' ) as $file ){
 	require_once $file;

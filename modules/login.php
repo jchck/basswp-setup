@@ -1,6 +1,6 @@
 <?php
 
-namespace jchck\login;
+namespace basswp\setup\login;
 
 /*
 	Add CSS to the wp-login.php
