@@ -1,6 +1,7 @@
 {
     "name": "basswp/setup",
-    "description": "Collection of theme agnostic setup modules",
+    "description": "A WordPress plugin containing a collection of front-end theme agnostic setup modules",
+    "homepage": "https://github.com/jchck/basswp-setup",
     "type": "wordpress-plugin",
     "license": "MIT",
     "authors": [
@@ -9,6 +10,9 @@
             "email": "hey@justinchick.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/jchck/basswp-setup/issues"
+  },
     "require": {
         "php": ">= 5.5",
         "composer/installers": "~1.0"
