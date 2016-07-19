@@ -3,7 +3,7 @@
 Plugin Name:		Setup
 Plugin URI:         http://jstn.ch/ck
 Description:        Collection of theme agnostic setup modules 
-Version:            0.0.0
+Version:            0.0.1
 Author:             Justin Chick
 Author URI:         http://jstn.ch/ck
 License:            MIT
