@@ -1,0 +1,16 @@
+{
+    "name": "jchck/setup",
+    "description": "Collection of theme agnostic setup modules",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jchck",
+            "email": "hey@justinchick.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.5",
+        "composer/installers": "^1.1"
+    }
+}
