@@ -1,5 +1,5 @@
 {
-    "name": "jchck/setup",
+    "name": "basswp/setup",
     "description": "Collection of theme agnostic setup modules",
     "type": "wordpress-plugin",
     "license": "MIT",
