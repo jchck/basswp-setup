@@ -1,0 +1,19 @@
+.login{ }
+
+	.login h1{ display: none }
+
+	.login form{
+		padding: 0;
+		margin: 0;
+		box-shadow: initial;
+		background: none;
+	}
+
+		.login form p{
+			position: relative;
+			margin-bottom: var(--space-3) !important;
+		}
+
+		.login form p input.input{
+			width: var(--width-2);
+		}
