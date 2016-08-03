@@ -25,22 +25,18 @@ add_action( 'admin_menu', __NAMESPACE__ . '\\remove_options' );
 function admin(){
 
 	/*
-		Turn off the Admin Bar for user role >= admin
+		Turn off the Admin Bar
 		@link https://codex.wordpress.org/Function_Reference/show_admin_bar
 	*/
 
-	if ( current_user_can( 'manage_options' ) ) {
-		show_admin_bar( false );
-	}
+	show_admin_bar( false );
 
 	/*
-		Turn off the ACF admin page if < admin
+		Turn off the ACF admin page
 		@link https://www.advancedcustomfields.com/resources/how-to-hide-acf-menu-from-clients/
 	*/
 	
-	if ( ! current_user_can( 'manage_options' ) ) {
-		add_filter('acf/settings/show_admin', '__return_false');
-	}
+	add_filter('acf/settings/show_admin', '__return_false');
 	
 }
 
