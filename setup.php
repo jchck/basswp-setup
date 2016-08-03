@@ -12,6 +12,13 @@ License URI:        http://opensource.org/licenses/MIT
 
 namespace basswp\setup;
 
+/*
+	Global URL's
+*/
+define( 'IMG', plugin_dir_url( '/assets/img' ) );
+
+
+
 foreach ( glob( __DIR__ . '/modules/*.php' ) as $file ){
 	require_once $file;
 }
