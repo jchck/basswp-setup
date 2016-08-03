@@ -1,6 +1,6 @@
 <?php
 
-namespace basswp\setup\pages;
+namespace basswp\setup\admin;
 
 function remove_options(){
 
