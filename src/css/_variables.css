@@ -26,6 +26,8 @@
 	--gray:   #AAAAAA;
 	--black:  #111111;
 
+	--color-primary: var(--maroon);
+
 	--line-height-1: 1;
 	--line-height-2: 1.125;
 	--line-height-3: 1.25;

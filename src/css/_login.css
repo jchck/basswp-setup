@@ -1,6 +1,22 @@
-.login{ }
+.login{ background: var(--color-primary) }
 
-	.login h1{ display: none }
+	.login h1 a{ 
+		/*display: none;*/
+		background-image: url('dest/img/logo.png');
+		background-size: auto;
+		width: 100%;
+		height: 40px;
+	}
+
+	.login #nav a,
+	.login #backtoblog a{
+		color: var(--white);
+	}
+
+		.login #nav a:hover,
+		.login #backtoblog a:hover{
+			color: var(--black);
+		}
 
 	.login form{
 		padding: 0;
@@ -13,7 +29,22 @@
 			position: relative;
 			margin-bottom: var(--space-3) !important;
 		}
+			.login form p label{
+				color: var(--white);
+			}
 
 		.login form p input.input{
-			width: var(--width-2);
+			/*width: var(--width-2);*/
+			border: 2px solid var(--black);
 		}
+
+		.login form .button-primary{
+			background: var(--blue);
+			border-color: var(--white);
+			text-shadow: none;
+		}
+
+			.login form .button-primary:hover{
+				border-color: var(--white);
+				background: transparent;
+			}
