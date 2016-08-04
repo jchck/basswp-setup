@@ -18,13 +18,17 @@ namespace basswp\setup;
 define( 'IMG', plugin_dir_url( '/dest/img' ) );
 
 
-
+/*
+	Include functions from /modules directory
+*/
 foreach ( glob( __DIR__ . '/modules/*.php' ) as $file ){
 	require_once $file;
 }
 
 
-
+/*
+	Include custom post types
+*/
 foreach ( glob( __DIR__ . '/cpt/*.php' ) as $cpt ){
 	require_once $cpt;
 }
