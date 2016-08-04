@@ -46,6 +46,7 @@ function admin(){
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\\admin' );
 
+
 function admin_bar(){
 
 	/*
@@ -85,3 +86,18 @@ function widgets(){
 
 
 add_action( 'wp_dashboard_setup', __NAMESPACE__ . '\\widgets' );
+
+
+function remove_update(){
+
+	/*
+		Turn off update alerts, except for admin's
+	*/
+
+	return null;
+}
+
+if ( !current_user_can( 'manage_options' ) ) {
+	add_filter( 'pre_site_transient_update_core', 'remove_update' );
+}
+
