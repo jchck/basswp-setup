@@ -22,3 +22,9 @@ define( 'IMG', plugin_dir_url( '/dest/img' ) );
 foreach ( glob( __DIR__ . '/modules/*.php' ) as $file ){
 	require_once $file;
 }
+
+
+
+foreach ( glob( __DIR__ . '/cpt/*.php' ) as $cpt ){
+	require_once $cpt;
+}
