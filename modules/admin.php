@@ -86,3 +86,9 @@ function widgets(){
 add_action( 'wp_dashboard_setup', __NAMESPACE__ . '\\widgets' );
 
 
+function credit_link() {
+	echo "Site by <a href='http://jstn.ch/ck' target='_blank'>Justin Chick</a>";
+}
+add_filter( 'admin_footer_text', __NAMESPACE__ . '\\credit_link');
+
+
