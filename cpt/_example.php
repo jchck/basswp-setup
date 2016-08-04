@@ -13,18 +13,18 @@ namespace basswp\setup\cpt\example;
 function example() {
 
 	$labels = array(
-		'name'                => __( 'Plural Name', 'text-domain' ),
-		'singular_name'       => __( 'Singular Name', 'text-domain' ),
-		'add_new'             => _x( 'Add New Singular Name', 'text-domain', 'text-domain' ),
-		'add_new_item'        => __( 'Add New Singular Name', 'text-domain' ),
-		'edit_item'           => __( 'Edit Singular Name', 'text-domain' ),
-		'new_item'            => __( 'New Singular Name', 'text-domain' ),
-		'view_item'           => __( 'View Singular Name', 'text-domain' ),
-		'search_items'        => __( 'Search Plural Name', 'text-domain' ),
-		'not_found'           => __( 'No Plural Name found', 'text-domain' ),
-		'not_found_in_trash'  => __( 'No Plural Name found in Trash', 'text-domain' ),
-		'parent_item_colon'   => __( 'Parent Singular Name:', 'text-domain' ),
-		'menu_name'           => __( 'Plural Name', 'text-domain' ),
+		'name'                => __( 'Example Post Type', 'text-domain' ),
+		'singular_name'       => __( 'Example Post Type', 'text-domain' ),
+		'add_new'             => _x( 'Add New Example Post Type', 'text-domain', 'text-domain' ),
+		'add_new_item'        => __( 'Add New Example Post Type', 'text-domain' ),
+		'edit_item'           => __( 'Edit Example Post Type', 'text-domain' ),
+		'new_item'            => __( 'New Example Post Type', 'text-domain' ),
+		'view_item'           => __( 'View Example Post Type', 'text-domain' ),
+		'search_items'        => __( 'Search Example Post Type', 'text-domain' ),
+		'not_found'           => __( 'No Example Post Type found', 'text-domain' ),
+		'not_found_in_trash'  => __( 'No Example Post Type found in Trash', 'text-domain' ),
+		'parent_item_colon'   => __( 'Parent Example Post Type:', 'text-domain' ),
+		'menu_name'           => __( 'Example Post Type', 'text-domain' ),
 	);
 
 	$args = array(
@@ -36,7 +36,7 @@ function example() {
 		'show_ui'             => true,
 		'show_in_menu'        => true,
 		'show_in_admin_bar'   => true,
-		'menu_position'       => null,
+		'menu_position'       => 5,
 		'menu_icon'           => null,
 		'show_in_nav_menus'   => true,
 		'publicly_queryable'  => true,
