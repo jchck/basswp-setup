@@ -15,7 +15,7 @@ namespace basswp\setup;
 /*
 	Global URL's
 */
-define( 'IMG', plugin_dir_url( '/assets/img' ) );
+define( 'IMG', plugin_dir_url( '/dest/img' ) );
 
 
 
