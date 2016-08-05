@@ -1,6 +1,6 @@
 {
   "name": "setup",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Collection of theme agnostic setup modules ",
   "main": "setup.php",
   "scripts": {
